@@ -99,7 +99,7 @@ import static javax.servlet.http.HttpServletResponse.*;
 public abstract class EC2Cloud extends Cloud {
 
 	public static final String DEFAULT_EC2_HOST = "us-east-1";
-	public static final String EC2_URL_HOST = "ec2.amazonaws.com";
+	public static final String EC2_URL_HOST = "amazonaws.com";
 
 	private final boolean useInstanceProfileForCredentials;
     private final String accessId;
